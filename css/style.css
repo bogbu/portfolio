@@ -351,6 +351,33 @@ header .center .moreMenu .gnb li a:hover:after {
   font-size: 15px;
 }
 
+#content .list li:nth-child(2) .else {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+#content .list li:nth-child(2) .else a {
+  color: #cdc6be;
+  background-color: #1d1d1b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 5px;
+}
+
 #content .list li:nth-child(3) {
   height: 60%;
   border-left: 1px solid #1d1d1b;

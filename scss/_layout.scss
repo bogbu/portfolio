@@ -188,6 +188,13 @@ header {
                     font-size: 15px;
                 }
             }
+            &:nth-child(2){
+                .else {display: flex; gap: 20px; text-align: center; justify-content: center; margin-top: 20px;
+                a{
+                    color: #cdc6be; background-color: #1d1d1b; display: flex; align-items: center; justify-content: center; padding: 5px;
+                }
+            }
+            }
             &:nth-child(3){
                 height: 60%;
                 border-left: 1px solid #1d1d1b;
