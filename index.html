@@ -7,90 +7,107 @@
     <title>Welcome to my site!</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;900&display=swap" rel="stylesheet">
-    <!--font-->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;900&family=Oleo+Script:wght@700&display=swap" rel="stylesheet">    <!--font-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!--fontawesome-->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <script defer src="js/header.js"></script>
+    <script defer src="js/slider.js"></script>
 </head>
 <body>
-    <div class="loader"></div>
-    <div class="loader2"></div>
     <header>
         <div class="center">
-            <ul class="gnb">
-                <li><div class="bg"></div><a href="#">타이틀</a></li>
-                <li><div class="bg"></div><a href="#">저를 소개합니다!</a></li>
-            </ul>
-            <h1><a href="#"><i class="fas fa-kiwi-bird"></i></a></h1>
-            <ul class="gnb">
-                <li><div class="bg"></div><a href="#">할 수 있는 것</a></li>
-                <li><div class="bg"></div><a href="#">연락처</a></li>
-            </ul>
+            <p>Ji-Hye-Jung</p>
+            <h1><a href="#">PORTFOLIO</a></h1>
+            <span class="more"><a href="#"></a></span>
+            <div class="moreMenu">
+                <ul class="gnb">
+                    <li><a href="#">저를 소개합니다!</a></li>
+                    <li><a href="#">할 수 있는 것</a></li>
+                    <li><a href="#">포트폴리오</a></li>
+                    <li><a href="#">연락처</a></li>
+                </ul>
+            </div>
         </div>
     </header>
     <div id="container">
         <div class="home contbox1">
             <div class="center">
-                <div class="box-text">
-                    <h2>
-                        <div class="text-wrap">
-                            포트폴리오<span>정지혜</span>
-                        </div>
-                    </h2>
-                </div>
-                <div class="thanks">
-                    <p class="">방문해주셔서 감사합니다.</p>
-                    <p>상단 메뉴를 클릭하면 더 많은 걸 보실 수 있습니다.</p>
-                    <div class="scroll">
-                        <i class="fas fa-mouse-pointer"></i>
-                    </div>
-                </div>
-                <video src="img/Sea.mp4" autoplay muted loop></video>
                 <div class="border-box">
-                    <h2></h2>
+                    <h2><span>This bird,</span><br>It's me!</h2>
+                    <img src="img/bogbu.png"/>
+                    <h3>
+                        <span>생</span>
+                        <p>
+                            각하고, 될 때까지 고민하고, 그러고 난 후엔 창조하는 퍼블리셔가 되기 위해 노력합니다.
+                        </p>
+                    </h3>
+                    <h4>
+                        접할 수 있는 모든 것에 도전적인 저는
+                        새로운 걸 경험하는데 긍정적입니다.
+                        새로운 기능과 디자인을 접목시켜서 나아가 디지털 세상에서 누구의 뇌리라도 번쩍 뜨이게 할 웹 개발자가 되고 싶습니다.
+                    </h4>
                 </div>
-            </div>
-        </div>
-        <div class="intro contbox2">
-            <div class="center">
-                <div class="intro-top">
-                    <div class="box-text">
-                        <h2>
-                            <div class="text-wrap">
-                                저를 소개합니다!
+                <div class="video-box">
+                    <video src="img/Sea.mp4" autoplay muted loop></video>
+                    <div class="video-bot">
+                        <!-- <div class="left-img">
+                            <img src="img/student-g0c423ccad_1920.jpg">
+                        </div> -->
+                        <div class="right-text">
+                            <h3>그동안 제가 어떻게 살았냐면요...</h4>
+                            <ul class="birth">
+                                <h4>학력</h4>
+                                <li><span>~2017.3</span><p>서울 혜성여자고등학교 졸업</p></li>
+                                <li><span>~2019.3</span><p>서영대학교 파주캠퍼스 디지털전기과 졸업</p></li>
+                                <li><span>2019.7~2020.6</span><p>대한상공회의소 경기인력개발원<br>CAD/CAM 과정 수료(10개월)</p></li>
+                                <li><span>2021.7~</span><p>더조은 컴퓨터 아트 학원UI/UX 웹디자인<br> (웹 퍼블리셔,5개월) 과정 수료중</p></li>
+                            </ul>
+                            <ul class="pro">
+                                <h4>경력</h4>
+                                <li><span>2020.5~ 2020.10</span>철재건물설계(CAD)직으로 근무</li>
+                                <li><span>2021.3~ 2021.10</span>커피 프랜차이즈 직원으로 근무</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="dog-box">
+                    <div class="dog-box-top">
+                        <h2>智慧</h2>
+                        <p><span>지혜 지 , 슬기로울 혜</span></p>
+                        <p>
+                            빗자루로 마음을 쓸어내어 정갈히 가다듬고
+                            <br>
+                            매일 새로운 지식을 깨우치려 노력하는<br>
+                            신입 웹 퍼블리셔 
+                            <div class="name">
+                                <div>정지혜</div>
                             </div>
-                        </h2>
+                        </p>
                     </div>
-                </div>
-                <div class="intro-bot">
-                    <div class="left-img">
-                        <img src="img/student-g0c423ccad_1920.jpg">
+                    <div class="dog-box-bot">
+                        <img src="img/mydog.jpg"/>
+                        <p>현재는 개 두 마리를 모시며 살고 있습니다.</p>    
                     </div>
-                    <div class="right-text">
-                        <ul class="birth">
-                            <h3>학력</h3>
-                            <li><span>~2017.3</span> 서울 혜성여자고등학교 졸업</li>
-                            <li><span>~2019.3</span> 서영대학교 파주캠퍼스 디지털전기과 졸업</li>
-                            <li><span>2019.7~2020.6</span> 대한상공회의소 경기인력개발원<br>CAD/CAM 과정 수료(10개월)</li>
-                            <li><span>2021.7~</span> 더조은 컴퓨터 아트 학원UI/UX 웹디자인<br> (웹 퍼블리셔,5개월) 과정 수료중</li>
-                        </ul>
-                    </div>
+
                 </div>
             </div>
         </div>
-        <div class="canDo contbox3">
+        <div id="headline">
+            <div class="center">
+                <h2>CREATE DEVELOPER!</h2>
+                <!-- <p>창의적인 생각을 추구합니다.</p> -->
+            </div>
+        </div>
+        <div class="canDo contbox2">
             <div class="center">
                 <div class="doTop">
-                    <div class="box-text">
-                        <h2>
-                            <div class="text-wrap">
-                                할 수 있는 것
-                            </div>
-                        </h2>
-                    </div>
+                    <h2>
+                        <div class="text-wrap">
+                            할 수 있는 것
+                        </div>
+                    </h2>
                 </div>
                 <div class="doBot">
                     <ul class="Todo">
@@ -98,35 +115,54 @@
                         <li><i class="fab fa-css3-alt"></i><h4>CSS</h4><p>float, position을 사용한 레이아웃 배열 뿐만 아니라<br>최신 트렌드 flex 에 대한 이해와 활용이 가능합니다.</p></li>
                         <li><i class="fab fa-js"></i><h4>자바 스크립트</h4><p>바닐라 스크립트를 사용한<br>웹사이트 동적 제어가 가능합니다.</p></li>
                         <li><i class="fas fa-quote-left"></i><h4>제이쿼리</h4><p>동적요소를 위해 jQuery를 활용하여 다양한 애니메이션 기능을 구현합니다.<br>플러그인 활용이 가능합니다.</p></li>
+                        <li><i class="fab fa-php"></i><h4>PHP</h4><p>PHP 언어를 사용해 Mysql 데이터 베이스에 데이터를 삽입 및 전달이 가능합니다.</p></li>
                     </ul>
                 </div>
-                <ul class="list">
-                    <li><a href="http://glutamine082442.dothome.co.kr/portfolio2" target='_blank'><img src="img/webimg1.jpeg"/><p>닌텐도 스위치 '포켓몬스터 소드실드' 홍보 컨셉 사이트<br><span>(반응형, JS O)</span></p></a></li>
-                    <li><a href="http://glutamine082442.dothome.co.kr/portfolio1" target='_blank'><img src="img/webimg2.jpeg"/><p>카페 프랜차이즈 홍보 컨셉 사이트<br><span>(반응형, JS, Php O)</span></p></a></li>
-                    <li><a href="http://glutamine082442.dothome.co.kr/portfolio5" target='_blank'><img src="img/webimg5.jpeg"/><p>프로젝트 단위 포트폴리오 홍보 사이트<br><span>(반응형 O, JS X)</span></p></a></li>
-                    <li><a href="http://glutamine082442.dothome.co.kr/portfolio4" target='_blank'><img src="img/webimg4.jpeg"/><p>패션 잡지 사이트 홍보 컨셉 사이트<br><span>(반응형, JS O)</span></p></a></li>
-                    <li><a href="http://glutamine082442.dothome.co.kr/portfolio3" target='_blank'><img src="img/webimg3.jpeg"/><p>건설 회사 홍보 컨셉 사이트<br><span>(반응형X, JS O)</span></p></a></li>
-
-                </ul>
+            </div>
+        <div id = "content" class="contbox3">
+            <h2>포트폴리오</h2>
+            <ul class="list">
+                <li><a href="http://glutamine082442.dothome.co.kr/portfolio2" target='_blank'><div class="img-box"><img src="img/webimg1.jpeg"/></div><p>닌텐도 스위치 '포켓몬스터 소드실드'<br><span>'포켓몬스터'는 게임 프리크가 개발하고 닌텐도가 독점 배급한 비디오 게임입니다. 그 중 가장 최근에 발매된 '포켓몬스터 소드&실드' 의 홈페이지를 재구현해보았습니다.<br>(반응형 O, JS O)</span></p></a></li>
+                <li><a href="http://glutamine082442.dothome.co.kr/portfolio1" target='_blank'><div class="img-box"><img src="img/webimg2.jpeg"/></div><p>카페 프랜차이즈 홍보 컨셉 사이트<br><span>현대 한국인들에게 뗄래야 뗄 수 없는 존재인 커피. 프랜차이즈 공식 / 동일 프랜차이즈 창업을 도와주기 위한 가상 홈페이지 컨셉으로 제작해보았습니다.<br>(반응형, JS, Php O)</span></p></a></li>
+                <li><h3>방문해주셔서 감사합니다</h3><div>아래 버튼을 누르면<br>더 많은 포트폴리오를 보실 수 있습니다.</div></li>
+                <li><a href="http://glutamine082442.dothome.co.kr/portfolio5" target='_blank'><div class="img-box"><img src="img/webimg5.jpeg"/></div><p>프로젝트 단위 포트폴리오 홍보 사이트<br><span>(반응형 O, JS X)</span></p></a></li>
+                <li><a href="http://glutamine082442.dothome.co.kr/portfolio4" target='_blank'><div class="img-box"><img src="img/webimg4.jpeg"/></div><p>패션 잡지 사이트 홍보 컨셉 사이트<br><span>(반응형X, JS O)</span></p></a></li>
+                <li><a href="http://glutamine082442.dothome.co.kr/portfolio3" target='_blank'><div class="img-box"><img src="img/webimg3.jpeg"/></div><p>건설 회사 홍보 컨셉 사이트<br><span>(반응형X, JS O)</span></p></a></li>
+            </ul>
+            <div class="btn-box">
+                <p class="left"><a href="#">LEFT</a></p>
+                <p class="right"><a href="#">RIGHT</a></p>
             </div>
         </div>
+
+        </div>
         <div class="adress contbox4">
-            <div class="box-text">
-                <h2>
-                    <div class="text-wrap">
-                        연락처
-                    </div>
-                </h2>
-            </div>
             <div class="center">
-                <div class="left-img">
-                    <img src="img/iconimg.png"/>
+                <div class="adressTop">
+                    <h2>연락처는 이쪽입니다.</h2>
                 </div>
-                <div class="right-text">
-                    <ul class="adressList">
-                        <li>mail : glutamine082442@gmail.com</li>
-                        <li>phone : 010-9699-5992</li>
-                    </ul>
+                <div class="adressBox">
+                    <div class="left-img">
+                        <img src="img/iconimg.png"/>
+                    </div>
+                    <div class="middle">
+                        <ul class="adresslink">
+                            <li><a href="mailto:glutamine082442@gmail.com">Email</a></li>
+                            <li><a href="tel:010-9699-5992">Phone</a></li>
+                        </ul>
+                    </div>
+                    <div class="right-text">
+                        <h3>
+                            Adress
+                        </h3>
+                        <ul class="adressList">
+                            <li>Email : glutamine082442@gmail.com</li>
+                            <li>Phone : 010-9699-5992</li>
+                        </ul>
+                        <div class="ps">
+                            <p>휴대폰, 메일 연락은 확인 후 빠르면 당일,<br>늦으면 3일 내로 답신드립니다. 감사합니다.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

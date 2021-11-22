@@ -1,6 +1,8 @@
 const gnb = document.querySelectorAll(".gnb > li");
 const header = document.querySelector("header");
 const headerheight = header.offsetHeight;
+const more = document.querySelector(".more");
+const moreMenu = document.querySelector(".moreMenu");
 
 for(let i = 0; i <gnb.length ; i++)
 {
@@ -11,7 +13,7 @@ for(let i = 0; i <gnb.length ; i++)
 
         window.scrollTo({
 
-            top:gnbselectheight ,
+            top:gnbselectheight-headerheight ,
             left:0,
             behavior: "smooth"
         });
@@ -21,12 +23,26 @@ for(let i = 0; i <gnb.length ; i++)
 
 window.addEventListener("scroll",()=>{
     let scTop = window.scrollY;
-    if(scTop > 100)
+    if(scTop > 500)
     {
         header.classList.add("on");
     }
     else 
     {
         header.classList.remove("on");
+    }
+});
+
+more.addEventListener("click",(e)=>{
+    e.preventDefault();
+    if(more.classList.contains("click"))
+    {
+        more.classList.remove("click");
+        moreMenu.classList.remove("click");
+    }
+    else
+    {
+        more.classList.add("click");
+        moreMenu.classList.add("click");
     }
 });
